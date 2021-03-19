@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.*;
 
 public class Main {
-
+    //Binary Search starts here
     public static boolean binarySearch(int arr[],int x) {
         int l = 0;
         int r = arr.length - 1;
