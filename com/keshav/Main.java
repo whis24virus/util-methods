@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Main {
 
-    public static boolean BinarySearch(int arr[],int x) {
+    public static boolean binarySearch(int arr[],int x) {
         int l = 0;
         int r = arr.length - 1;
         while (l <= r) {
@@ -17,7 +17,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // write your code here
         Scanner ss=new Scanner(System.in);
         int n=ss.nextInt();
         int arr[]=new int[n];
@@ -27,7 +26,7 @@ public class Main {
         System.out.println("Find x");
         int x=ss.nextInt();
         Arrays.sort(arr);
-        boolean truth=BinarySearch(arr,x);
+        boolean truth=binarySearch(arr,x);
         System.out.println(truth);
     }
 }
